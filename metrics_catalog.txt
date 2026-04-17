@@ -1,0 +1,845 @@
+# GPFS Metrics Catalog
+# Source: Prometheus @ <prometheus-host>:9090/prometheus
+# Cluster: mycluster / env: prod
+
+## gpfs_health_status
+  [708 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'CANISTER/SERVER', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'FILESYSTEM', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'FILESYSTEM', 'gpfs_health_entity': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'GPFS', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'GUI', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=20
+  ... +703 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_health_component', 'gpfs_health_entity', 'instance', 'job', 'node']
+
+## gpfs_health_detail_status
+  [708 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'CANISTER/SERVER', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'FILESYSTEM', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'FILESYSTEM', 'gpfs_health_entity': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'GPFS', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'GUI', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=20
+  ... +703 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_health_component', 'gpfs_health_entity', 'instance', 'job', 'node']
+
+## gpfs_health_error_events
+  [708 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'CANISTER/SERVER', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'FILESYSTEM', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'FILESYSTEM', 'gpfs_health_entity': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'GPFS', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'GUI', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=0
+  ... +703 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_health_component', 'gpfs_health_entity', 'instance', 'job', 'node']
+
+## gpfs_health_warning_events
+  [708 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'CANISTER/SERVER', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'FILESYSTEM', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'FILESYSTEM', 'gpfs_health_entity': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'GPFS', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_health_component': 'GUI', 'gpfs_health_entity': '-', 'instance': 'node-ems:9250', 'job': 'GPFSmmhealth', 'node': 'node-ems.example.cluster'}
+  value=1
+  ... +703 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_health_component', 'gpfs_health_entity', 'instance', 'job', 'node']
+
+## gpfs_pool_disksize
+  (no data)
+
+## gpfs_pool_free_dataKB
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'burst', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=298106355712
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'data', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=2157406699520
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'system', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_diskpool_name', 'gpfs_fs_name', 'instance', 'job']
+
+## gpfs_pool_free_metaKB
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'burst', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'data', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'system', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=20655845376
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_diskpool_name', 'gpfs_fs_name', 'instance', 'job']
+
+## gpfs_pool_total_dataKB
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'burst', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=414448615424
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'data', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=2190432796672
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'system', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_diskpool_name', 'gpfs_fs_name', 'instance', 'job']
+
+## gpfs_pool_total_metaKB
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'burst', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'data', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_diskpool_name': 'system', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSPool'}
+  value=21386100736
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_diskpool_name', 'gpfs_fs_name', 'instance', 'job']
+
+## gpfs_pool_free_fragkb
+  (no data)
+
+## gpfs_pool_free_fullkb
+  (no data)
+
+## gpfs_fs_bytes_read
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=1589606413312
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=74690102272
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=10943040160768
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_bytes_written
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=1474116206592
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=2473742336
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=11001136611328
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_read_ops
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=168593
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=6561803
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=781195
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_write_ops
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=134835
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=326439
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=2340222
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_disks
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=10
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_max_disk_wait_rd
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_max_disk_wait_wr
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_min_disk_wait_rd
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_min_disk_wait_wr
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_tot_disk_wait_rd
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=440.613181
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=2127.987532
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=2897.737643
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_tot_disk_wait_wr
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=9107.010762
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=59.79304
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=69106.092364
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_max_queue_wait_rd
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fs_max_queue_wait_wr
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystem', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_ns_bytes_read
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io0.example.cluster'}
+  value=1589606413312
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-ems.example.cluster'}
+  value=74690102272
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io1.example.cluster'}
+  value=10943040160768
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_ns_bytes_written
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io0.example.cluster'}
+  value=1474116206592
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-ems.example.cluster'}
+  value=2473742336
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io1.example.cluster'}
+  value=11001136611328
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_ns_read_ops
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io0.example.cluster'}
+  value=168593
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-ems.example.cluster'}
+  value=6561803
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io1.example.cluster'}
+  value=781195
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_ns_write_ops
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io0.example.cluster'}
+  value=134835
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-ems.example.cluster'}
+  value=326439
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io1.example.cluster'}
+  value=2340222
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_ns_disks
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io0.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-ems.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io1.example.cluster'}
+  value=10
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_ns_clusters
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io0.example.cluster'}
+  value=1
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-ems.example.cluster'}
+  value=1
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io1.example.cluster'}
+  value=1
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_ns_filesys
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io0.example.cluster'}
+  value=1
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-ems.example.cluster'}
+  value=1
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io1.example.cluster'}
+  value=1
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_ns_max_disk_wait_rd
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_ns_max_disk_wait_wr
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_ns_tot_disk_wait_rd
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io0.example.cluster'}
+  value=440.613181
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-ems.example.cluster'}
+  value=2127.987532
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io1.example.cluster'}
+  value=2897.737643
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_ns_tot_disk_wait_wr
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io0.example.cluster'}
+  value=9107.010762
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-ems.example.cluster'}
+  value=59.79304
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNode', 'node': 'node-io1.example.cluster'}
+  value=69106.092364
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_fset_allocInodes
+  (no data)
+
+## gpfs_fset_freeInodes
+  (no data)
+
+## gpfs_fset_maxInodes
+  (no data)
+
+## gpfs_rq_blk_current
+  (no data)
+
+## gpfs_rq_blk_hard_limit
+  (no data)
+
+## gpfs_rq_blk_soft_limit
+  (no data)
+
+## gpfs_rq_blk_in_doubt
+  (no data)
+
+## gpfs_rq_file_current
+  (no data)
+
+## gpfs_rq_file_hard_limit
+  (no data)
+
+## gpfs_rq_file_soft_limit
+  (no data)
+
+## gpfs_rq_file_in_doubt
+  (no data)
+
+## gpfs_tscom_stat
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=1
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=1
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=1
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=1
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=1
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_ca_stat
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_lost
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_reconnect
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_retrans
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_retransmits
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_sent_bytes
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_recvd_bytes
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_sent_msgs
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_recvd_msgs
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=0
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_rtt
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=173
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=332
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=197
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=196
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=329
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_rttvar
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=44
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=100
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=39
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=49
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=120
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_rto
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=201000
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=201000
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=201000
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=201000
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=201000
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_tscom_pmtu
+  [557 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.102', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=2044
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.103', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=2044
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.105', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=2044
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.106', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=2044
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_tscom_connection': '0', 'gpfs_tscom_destination': '10.30.0.116', 'instance': 'node-ems:9250', 'job': 'GPFSTSCOM', 'node': 'node-io0.example.cluster'}
+  value=2044
+  ... +552 more series
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_tscom_connection', 'gpfs_tscom_destination', 'instance', 'job', 'node']
+
+## gpfs_vfsx_read
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_write
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_open
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_close
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_create
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_lookup
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_readdir
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_fsync
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_read_t
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_write_t
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_open_t
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_close_t
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_read_tmax
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_vfsx_write_tmax
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io0.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-ems.example.cluster'}
+  value=0
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSVFSX', 'node': 'node-io1.example.cluster'}
+  value=0
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_fis_bytes_read
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io0.example.cluster'}
+  value=3312958733
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-ems.example.cluster'}
+  value=913787279
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io1.example.cluster'}
+  value=3083328252
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fis_bytes_written
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io0.example.cluster'}
+  value=2061693600
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-ems.example.cluster'}
+  value=923365490
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io1.example.cluster'}
+  value=4405681174
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fis_disks
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io0.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-ems.example.cluster'}
+  value=10
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io1.example.cluster'}
+  value=10
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fis_read_calls
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io0.example.cluster'}
+  value=164
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-ems.example.cluster'}
+  value=81
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io1.example.cluster'}
+  value=234
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fis_write_calls
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io0.example.cluster'}
+  value=251691
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-ems.example.cluster'}
+  value=112665
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io1.example.cluster'}
+  value=537229
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fis_open_calls
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io0.example.cluster'}
+  value=601
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-ems.example.cluster'}
+  value=662522
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io1.example.cluster'}
+  value=1204
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_fis_close_calls
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io0.example.cluster'}
+  value=474
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-ems.example.cluster'}
+  value=662461
+  labels={'cluster': 'mycluster', 'env': 'prod', 'gpfs_cluster_name': 'mycluster.example.com', 'gpfs_fs_name': 'gpfs', 'instance': 'node-ems:9250', 'job': 'GPFSFilesystemAPI', 'node': 'node-io1.example.cluster'}
+  value=975
+  LABEL_KEYS: ['cluster', 'env', 'gpfs_cluster_name', 'gpfs_fs_name', 'instance', 'job', 'node']
+
+## gpfs_is_bytes_read
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-io0.example.cluster'}
+  value=3312958733
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-ems.example.cluster'}
+  value=913787279
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-io1.example.cluster'}
+  value=3083328252
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_is_bytes_written
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-io0.example.cluster'}
+  value=2061693600
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-ems.example.cluster'}
+  value=923365490
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-io1.example.cluster'}
+  value=4405681174
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_is_read_calls
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-io0.example.cluster'}
+  value=164
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-ems.example.cluster'}
+  value=81
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-io1.example.cluster'}
+  value=234
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
+
+## gpfs_is_write_calls
+  [3 series]
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-io0.example.cluster'}
+  value=251691
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-ems.example.cluster'}
+  value=112665
+  labels={'cluster': 'mycluster', 'env': 'prod', 'instance': 'node-ems:9250', 'job': 'GPFSNodeAPI', 'node': 'node-io1.example.cluster'}
+  value=537229
+  LABEL_KEYS: ['cluster', 'env', 'instance', 'job', 'node']
