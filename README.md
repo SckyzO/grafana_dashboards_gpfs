@@ -9,7 +9,7 @@ A set of production-ready Grafana dashboards for monitoring IBM Spectrum Scale (
 | IBM Spectrum Scale (GPFS) | 5.2.3 |
 | ibm-spectrum-scale-bridge-for-grafana | [v9.0.2](https://github.com/IBM/ibm-spectrum-scale-bridge-for-grafana/releases/tag/v9.0.2) (2026-03-05) |
 | Grafana | ≥ 10.x |
-| Prometheus | ≥ 2.x |
+| Prometheus | 3.x |
 
 ## Dashboards
 
@@ -29,7 +29,7 @@ All dashboards are linked together via a **"GPFS Dashboards"** navigation group.
 3. Select your Prometheus datasource
 4. Repeat for each dashboard
 
-→ See [docs/getting-started.md](docs/getting-started.md) for full setup instructions including Prometheus scrape configuration.
+→ See [docs/getting-started.md](docs/getting-started.md) for full setup instructions.
 
 ## Template variables
 
@@ -63,3 +63,11 @@ Dashboards rely on the following Prometheus jobs exported by the bridge:
 | [Getting Started](docs/getting-started.md) | Prerequisites, exporter setup, Prometheus config, import steps |
 | [Metrics Reference](docs/metrics.md) | All metrics by job, labels, units and PromQL examples |
 | [Dashboard Reference](docs/dashboards.md) | Panel-by-panel description and interpretation tips |
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## License
+
+[GNU Affero General Public License v3.0](LICENSE) — © 2026 Thomas Bourcey

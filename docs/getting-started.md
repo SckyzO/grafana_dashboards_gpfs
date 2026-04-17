@@ -2,73 +2,30 @@
 
 ## Prerequisites
 
-| Component | Version |
-|-----------|---------|
+| Component | Tested version |
+|-----------|---------------|
+| IBM Spectrum Scale (GPFS) | 5.2.3 |
+| ibm-spectrum-scale-bridge-for-grafana | v9.0.2 |
 | Grafana | ≥ 10.x |
-| Prometheus | ≥ 2.x |
-| IBM Spectrum Scale (GPFS) | any recent version |
-| [ibm-spectrum-scale-bridge-for-grafana](https://github.com/IBM/ibm-spectrum-scale-bridge-for-grafana) | latest |
+| Prometheus | 3.x |
 
 ---
 
 ## 1. Deploy the IBM Spectrum Scale exporter
 
-The exporter must run on the EMS (Execution Management Server) node of your GPFS cluster. It exposes metrics on port `9250` by default.
+The exporter must run on the EMS (Execution Management Server) node of your GPFS cluster.
 
-Follow the official setup guide: https://github.com/IBM/ibm-spectrum-scale-bridge-for-grafana
+Follow the official setup guide: **https://github.com/IBM/ibm-spectrum-scale-bridge-for-grafana/wiki**
 
 ---
 
 ## 2. Configure Prometheus
 
-Add the following scrape job to your `prometheus.yml`. The exporter exposes all metric groups through a single endpoint:
+Follow the official Prometheus configuration guide for the bridge:
+**https://github.com/IBM/ibm-spectrum-scale-bridge-for-grafana/wiki/Setup-Prometheus**
 
-```yaml
-scrape_configs:
-  - job_name: GPFSmmhealth
-    static_configs:
-      - targets: ['<ems-node>:9250']
-    params:
-      query: [health]
-
-  - job_name: GPFSPool
-    static_configs:
-      - targets: ['<ems-node>:9250']
-    params:
-      query: [pool]
-
-  - job_name: GPFSFilesystem
-    static_configs:
-      - targets: ['<ems-node>:9250']
-    params:
-      query: [filesystem]
-
-  - job_name: GPFSNode
-    static_configs:
-      - targets: ['<ems-node>:9250']
-    params:
-      query: [node]
-
-  - job_name: GPFSTSCOM
-    static_configs:
-      - targets: ['<ems-node>:9250']
-    params:
-      query: [tscom]
-
-  - job_name: GPFSVFSX
-    static_configs:
-      - targets: ['<ems-node>:9250']
-    params:
-      query: [vfsx]
-```
-
-Replace `<ems-node>` with the hostname or IP of your EMS node.
-
-Verify that metrics are flowing before importing the dashboards:
-
-```bash
-curl -s 'http://<prometheus-host>:9090/api/v1/query?query=gpfs_health_status' | python3 -m json.tool
-```
+The dashboards expect the following scrape job names to be present in Prometheus:
+`GPFSmmhealth`, `GPFSPool`, `GPFSFilesystem`, `GPFSNode`, `GPFSTSCOM`, `GPFSVFSX`
 
 ---
 
